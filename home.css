@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+.head{
+    font-family: cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav nav ul li{
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    &:hover{
+        color: white;
+        text-decoration: underline;
+    }
+}
